@@ -10,18 +10,20 @@ let n = 1
 function _click(x) {
     x.children[0].innerHTML
     LEDnum += x.children[0].innerHTML
-    if (m < 16) {
-        document.getElementById('mainLED').innerHTML = LEDnum;
-        m++
-    } else {
-        document.getElementById('mainLED').innerHTML = '*****ERROR*****';
-        setTimeout(() => {
-            alert('reminder: You can only enter up to 15 character!!')
-            document.getElementById('mainLED').innerHTML = '0';
-        }, 500);
-        m = 1
-        LEDnum = ""
-    }
+    document.getElementById('mainLED').innerHTML = LEDnum;
+    
+    // if (m < 16) {
+    //     document.getElementById('mainLED').innerHTML = LEDnum;
+    //     m++
+    // } else {
+    //     document.getElementById('mainLED').innerHTML = '*****ERROR*****';
+    //     setTimeout(() => {
+    //         alert('reminder: You can only enter up to 15 character!!')
+    //         document.getElementById('mainLED').innerHTML = '0';
+    //     }, 500);
+    //     m = 1
+    //     LEDnum = ""
+    // }
 
     if (n == 1) {
         num1 = parseFloat(LEDnum)
