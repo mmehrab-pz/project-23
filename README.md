@@ -1,4 +1,4 @@
-# Trcik (calculator)
+# project 23 (calculator)
 
 ![Shot 0042](https://github.com/mmehrab-pz/calculator/assets/99506317/4a29f857-8244-48e5-804e-cadef4ec8aaf)
 
